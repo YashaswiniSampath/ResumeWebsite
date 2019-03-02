@@ -1,0 +1,141 @@
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(26, 37, 67);
+}
+
+li.a {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li.a:last-child {
+  border-right: none;
+}
+
+li.a a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.a a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table {
+  width:100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+margin:auto;
+font-family:Lucida Sans Unicode;
+font-size: 20px;
+}
+
+boxed{
+ outline-style: ridge;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+font-family:Lucida Sans Unicode;
+font-size: 20px;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+li.b{
+font-family:Lucida Sans Unicode;
+  font-size: 20px;
+}
+
+
+pre,p,h1,h2,h3,h4{
+font-family:Lucida Sans Unicode;
+font-size: 20px;
+}
+
+li.a,li.b,ul.a,ul.b,ol,li{
+	font-family: Lucida Sans Unicode;
+font-size: 20px;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.java {width: 60%; background-color: #4CAF50;}
+.cp {width: 70%; background-color: #4CAF50;}
+.sql {width: 70%; background-color:#4CAF50;}
+.R {width: 75%; background-color: #4CAF50;}
+.html {width: 78%; background-color: #4CAF50;}
+
+.fa {
+  padding: 50px;
+  font-size: 100px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
